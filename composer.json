@@ -40,6 +40,7 @@
             "Lidan\\CodeIgniter\\": "src/"
         }
     },
+
     "scripts" : {
         "post-install-cmd": [
             "Lidan\\CodeIgniter\\Installer::postInstall"
