@@ -1,0 +1,35 @@
+{
+    "name": "lidan86/rest-codeigneter",
+    "description": "REST API with framework codeigniter.",
+    "keywords": [
+        "CodeIgniter",
+        "Composer",
+        "installer"
+    ],
+    "homepage": "https://github.com/lidan86/rest-codeigneter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maulidan Yulianto",
+            "email": "maulidan.ksl@gmail.com"
+        }
+    ],
+    "require": {
+            "codeigniter/framework": "3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lidan\\CodeIgniter\\": "src/"
+        }
+    },
+    "scripts" : {
+        "post-install-cmd": [
+            "Lidan\\CodeIgniter\\Installer::postInstall"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
