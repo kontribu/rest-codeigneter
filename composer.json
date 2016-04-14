@@ -1,17 +1,4 @@
-{"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "lidan/rest-codeigneter",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/lidan86/rest-codeigneter.git",
-                "type": "git",
-                "reference": "master"
-            }
-        }
-    }
-],
+{
     "name": "lidan86/rest-codeigneter",
     "description": "REST API with framework codeigniter.",
     "keywords": [
